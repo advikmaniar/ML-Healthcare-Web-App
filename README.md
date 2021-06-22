@@ -48,7 +48,7 @@ In this section, the user can use any model developed above to predict their sta
 ![image](https://user-images.githubusercontent.com/72503778/123003260-93b98780-d3d0-11eb-9ff0-bb27da6a105e.png)
 
 
-View the final video [here] ()
+View the final video [here](https://github.com/advikmaniar/ML-Heathcare-Web-App/blob/main/Results/ML_Healthcare%20Video.webm).
 # -----------------------------Thank You!---------------------------------
 
 
