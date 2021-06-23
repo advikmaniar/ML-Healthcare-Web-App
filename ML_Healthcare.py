@@ -37,7 +37,7 @@ classifier_name = st.sidebar.selectbox("Select Classifier: ",("Logistic Regressi
 LE=LabelEncoder()
 def get_dataset(dataset_name):
     if dataset_name=="Heart Attack":
-        data=pd.read_csv("Data\heart.csv")
+        data=pd.read_csv("https://github.com/advikmaniar/ML-Heathcare-Web-App/blob/main/Data/heart.csv")
         st.header("Heart Attack Prediction")
         return data
 
