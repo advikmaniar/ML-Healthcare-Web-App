@@ -3,7 +3,7 @@ This is a interactive Machine Learning Web App <b><i>"ML in Healthcare"</i></b> 
 
 View App Here: 
 
-[![StreamLit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](App link)
+[![StreamLit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/advikmaniar/ml-healthcare-web-app/main/ML_Healthcare.py)
 
 <hr>
 
