@@ -1,5 +1,6 @@
 # ML-Healthcare-Web-App
-This is an interactive Machine Learning Web App <b><i>"ML in Healthcare"</i></b> developed using Python and StreamLit. It uses ML algorithms to build powerful and accurate models to predict the risk (High / Low) of the user to having an Heart Attack or Breast Cancer based on the user's specific attributes like age, sex, heart-rate, blood sugar etc.
+
+This is an interactive Machine Learning Web App "ML in Healthcare" developed using Python and StreamLit. It uses ML algorithms to build powerful and accurate models to predict the risk (High / Low) of the user of having a Heart Attack or Breast Cancer based on the user's specific attributes like age, sex, heart rate, blood sugar, etc.
 
 <h2><b> View App Here: </b></h2>
 
