@@ -3,5 +3,5 @@ seaborn==0.11.1
 pandas==1.0.5
 xgboost==1.4.1
 streamlit==0.83.0
-numpy==1.21.0
+numpy==1.19.4
 scikit_learn==0.24.2
