@@ -297,9 +297,9 @@ def user_predict():
 
     st.subheader("Your Status: ")
     if U_pred == 0:
-        st.write(U_pred[0], " - You are not at high risk :)")
+        st.write(U_pred, " - You are not at high risk :)")
     else:
-        st.write(U_pred[0], " - You are at high risk :(")
+        st.write(U_pred, " - You are at high risk :(")
 user_predict()  #Predict the status of user.
 
 
