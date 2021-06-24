@@ -289,11 +289,11 @@ def user_predict():
     global U_pred
     if dataset_name == "Breast Cancer":
         X = data.drop(["id","diagnosis"], axis=1)
-        U_pred = clf.predict([user_val[col] for col in X.columns])
+        U_pred = clf.predict([[user_val[col] for col in X.columns]])
 
     elif dataset_name == "Heart Attack":
         X = data.drop(["output"], axis=1)
-        U_pred = clf.predict([user_val[col] for col in X.columns])
+        U_pred = clf.predict([[user_val[col] for col in X.columns]])
 
     st.subheader("Your Status: ")
     if U_pred == 0:
