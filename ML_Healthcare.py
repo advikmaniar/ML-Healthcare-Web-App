@@ -37,12 +37,12 @@ classifier_name = st.sidebar.selectbox("Select Classifier: ",("Logistic Regressi
 LE=LabelEncoder()
 def get_dataset(dataset_name):
     if dataset_name=="Heart Attack":
-        data=pd.read_csv("https://github.com/advikmaniar/ML-Heathcare-Web-App/blob/main/Data/heart.csv", delimiter=',', skiprows=0, low_memory=False)
+        data=pd.read_csv("https://github.com/advikmaniar/ML-Heathcare-Web-App/blob/main/Data/heart.csv")
         st.header("Heart Attack Prediction")
         return data
 
     else:
-        data=pd.read_csv("https://github.com/advikmaniar/ML-Heathcare-Web-App/blob/main/Data/BreastCancer.csv",delimiter=',', skiprows=0, low_memory=False)
+        data=pd.read_csv("https://github.com/advikmaniar/ML-Heathcare-Web-App/blob/main/Data/BreastCancer.csv")
         
         data["diagnosis"] = LE.fit_transform(data["diagnosis"])
         data.replace([np.inf, -np.inf], np.nan, inplace=True)
