@@ -43,7 +43,6 @@ def get_dataset(dataset_name):
 
     else:
         data=pd.read_csv("https://github.com/advikmaniar/ML-Heathcare-Web-App/blob/main/Data/BreastCancer.csv",sep='|',delimiter=",").drop(["Unnamed: 32"],axis=1)
-        #data.drop(["Unnamed: 32"],axis=1,inplace=True)
         data["diagnosis"] = LE.fit_transform(data["diagnosis"])
         data.replace([np.inf, -np.inf], np.nan, inplace=True)
         data["diagnosis"] = pd.to_numeric(data["diagnosis"], errors="coerce")
