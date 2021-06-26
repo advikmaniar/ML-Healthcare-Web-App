@@ -57,7 +57,7 @@ In this section, the user can use any model developed above to predict their sta
 View the final video [here](https://github.com/advikmaniar/ML-Healthcare-Web-App/blob/main/Results/Video.mp4).
 <hr>
 
-# ------------------------Thank You!---------------------------
+<h1> Thank You! </h1>
 
 <hr>
 
