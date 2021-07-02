@@ -30,7 +30,7 @@ An interactive side-dashboard is created using the streamlit `st.sidebar` call w
 3. Change the important parameters for each model - `Learning Rate, Random State, Regularization Coeff, Gamma, Kernel, n_estimators` etc. 
 
 After training using the parameters selected by the user, the tuned model is built and ready to be tested on our testing data. The classification plot and confusion matrix is displayed for the model selected along with the model metrics: `Accuracy, Precision, Recall, F1-Score, Mean Squared Error, Execution Time`. The user can observe real-time changes in the plots and metrics as they change the model parameters further. 
-> This is a great way to understand the different ML algorithms and how they are influenced by tuning the hyperparameters.
+> **This is a great way to understand the different ML algorithms and how they are influenced by tuning the hyperparameters.**
 > 
 ![image](https://user-images.githubusercontent.com/72503778/123002403-85b73700-d3cf-11eb-80a1-71262561b9c8.png)
 
