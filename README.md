@@ -4,7 +4,7 @@ This is an interactive Machine Learning Web App "ML in Healthcare" developed usi
 
 <h2><b> View App Here: </b></h2>
 
-[![StreamLit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/advikmaniar/ml-healthcare-web-app/main/ML_Healthcare.py)
+[![StreamLit App](https://static.streamlit.io/badges/streamlit_badge_white.svg)](https://share.streamlit.io/advikmaniar/ml-healthcare-web-app/main/ML_Healthcare.py)
 
 <hr>
 
