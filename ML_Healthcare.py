@@ -8,14 +8,6 @@ import time
 import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
 plt.style.use('dark_background')
-import pandas as pd
-import pandas as pd
-import pandas as pd
-import pandas as pd
-import pandas as pd
-import pandas as pd
-import pandas as pd
-import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
