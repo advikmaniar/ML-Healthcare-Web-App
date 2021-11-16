@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Test Page</title>
+		<!-- google fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Linking CSS -->
+		<link rel="stylesheet" href="{{ url_for('static', path='/styles.css') }}" />
+	</head>
+	<body>
+		<div class="heading-container">
+			<h1 class="heading">predict chances of your admission</h1>
+		</div>
+
+		<!-- Form -->
+		<div class="form-container">
+			<form action="" method="POST" id="predict-form">
+				<!-- GRE -->
+				<label for="gre">Enter GRE Score</label>
+				<input
+					type="number"
+					name="gre_score"
+					id="gre"
+					step="1"
+					max="340"
+					required
+				/>
+
+				<!-- TOEFL -->
+				<label for="toefl">Enter TOEFL Score</label>
+				<input type="number" name="toefl_score" id="toefl" max="120" required />
+
+				<!-- University Rating -->
+				<label for="universityRating">University Rating (1-5)</label>
+				<input
+					type="number"
+					name="university_rating"
+					id="universityRating"
+					step="1"
+					max="5"
+					required
+				/>
+
+				<!-- SOP Score -->
+				<label for="sop">SOP Score (1-5)</label>
+				<input
+					type="number"
+					name="sop_score"
+					id="sop"
+					step="0.5"
+					max="5"
+					required
+				/>
+
+				<!-- LOR Score -->
+				<label for="lor">LOR Score (1-5)</label>
+				<input
+					type="number"
+					name="lor_score"
+					id="lor"
+					step="0.5"
+					max="5"
+					required
+				/>
+
+				<!-- CGPA -->
+				<label for="cgpa">CGPA (0.0-10.0)</label>
+				<input
+					type="number"
+					name="cgpa_score"
+					id="cgpa"
+					step="0.01"
+					max="10.00"
+					required
+				/>
+
+				<!-- Research -->
+				<div class="radio-btn">
+					<label for="research">Research (Select one option)</label>
+					<br />
+					<input type="radio" name="research" value="Yes" checked />
+					<span>Yes</span>
+					<input type="radio" name="research" value="No" />
+					<span>No</span>
+				</div>
+
+				<!-- Submit Button -->
+				<button type="submit" form="predict-form" value="Predict">
+					Predict
+				</button>
+			</form>
+		</div>
+
+		<!-- Results -->
+		<div class="result-container">
+			<h2>{{ prediction }}</h2>
+		</div>
+
+		<!-- footer -->
+		<footer>
+			<p>
+				Made By:
+				<a href="https:www.github.com/amanosan" target="_blank">Aman Osan</a>
+			</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Result</title>
+		<!-- google fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Linking CSS -->
+		<link rel="stylesheet" href="{{ url_for('static', path='/styles.css') }}" />
+	</head>
+	<body>
+		<!-- Results -->
+		<div class="result-container">
+			<h2>{{ prediction }}</h2>
+			<p class="note">Click Back Button to Predict Once More.</p>
+		</div>
+	</body>
+</html>
